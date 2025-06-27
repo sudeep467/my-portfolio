@@ -91,7 +91,7 @@ const Hero = () => {
             <div className="relative w-80 h-80 lg:w-96 lg:h-96 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-20 blur-xl"></div>
               <img
-                src="/profile.jpg"
+                src="/public/profile.jpg"
                 alt="Sudeep K U"
                 className="relative z-10 w-full h-full object-cover rounded-full border-4 border-gradient-to-r from-blue-400 to-purple-400 shadow-2xl"
               />
