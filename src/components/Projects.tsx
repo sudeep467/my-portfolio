@@ -10,38 +10,59 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Knee Osteoarthritis Detection",
-      description: "CNN-based medical imaging system for detecting and predicting knee osteoarthritis severity",
-      longDescription: "Research project focused on developing a deep learning model using Convolutional Neural Networks to detect knee osteoarthritis from X-ray images and predict severity levels. The system achieved high accuracy rates and was published in a peer-reviewed journal.",
-      technologies: ["Python", "TensorFlow", "OpenCV", "NumPy", "Pandas", "Matplotlib"],
-      image: "https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800",
-      githubUrl: "https://github.com/sudeep467",
-      duration: "8 months",
-      team: "3 researchers",
+      title: "Investment Calculator",
+      description: "A web app to calculate investment growth over time with interactive charts.",
+      longDescription: "A React-based investment calculator that allows users to input principal, interest rate, and duration to visualize investment growth. Features dynamic charting, responsive UI, and real-time calculations. Built with React, TypeScript, and Chart.js.",
+      technologies: ["Angular", "Typescript" , "Javascript" , "HTML" , "CSS"],
+      image: "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=800",
+      githubUrl: "https://github.com/sudeep467/investment-calculator",
+      liveUrl: "https://investment-calc.dev",
+      duration: "2 weeks",
+      team: "Solo project",
       challenges: [
-        "Preprocessed large medical image datasets with data augmentation techniques",
-        "Implemented custom CNN architecture optimized for medical imaging",
-        "Achieved 94% accuracy in osteoarthritis detection and severity classification",
-        "Published research findings in academic journal"
+        "Implemented compound interest calculations with edge case handling",
+        "Integrated Chart.js for dynamic data visualization",
+        "Ensured mobile responsiveness and accessibility"
       ],
       features: [
-        "Automated X-ray image preprocessing",
-        "Multi-class severity prediction",
-        "High accuracy CNN model (94%)",
-        "Batch processing capabilities",
-        "Detailed classification reports",
-        "User-friendly interface for medical professionals"
+        "Real-time investment growth visualization",
+        "Customizable input parameters",
+        "Interactive and responsive charts",
+        "Export results as images"
       ]
     },
     {
       id: 2,
+      title: "Hotel Appointment App",
+      description: "A booking platform for hotel appointments with calendar integration and notifications.",
+      longDescription: "Developed a full-stack hotel appointment app enabling users to book, modify, and cancel hotel appointments. Features include calendar integration, email notifications, and admin dashboard. Built with React, Node.js, and MongoDB.",
+      technologies: ["Angular", "Typescript" , "Javascript" , "HTML" , "CSS"],
+      image: "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=800",
+      githubUrl: "https://github.com/sudeep467/appointment-app",
+      liveUrl: "https://hotelapp.dev",
+      duration: "1 month",
+      team: "2 developers",
+      challenges: [
+        "Integrated third-party calendar APIs",
+        "Implemented secure authentication and authorization",
+        "Handled booking conflicts and real-time updates"
+      ],
+      features: [
+        "User-friendly booking interface",
+        "Calendar and email notification integration",
+        "Admin dashboard for managing appointments",
+        "Responsive and accessible design"
+      ]
+    },
+    {
+      id: 3,
       title: "Portfolio Website",
       description: "Modern, responsive portfolio website built with React and Framer Motion animations",
       longDescription: "Personal portfolio website showcasing projects, skills, and experience. Built with modern web technologies including React, TypeScript, and Framer Motion for smooth animations. Features responsive design, contact form integration, and project showcase with detailed modals.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "EmailJS"],
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      githubUrl: "https://github.com/sudeep467",
-      liveUrl: "https://sudeepku.dev",
+      githubUrl: "https://github.com/sudeep467/my-portfolio",
+      liveUrl: "https://my-portfolio-ivvli570s-sudeep-k-us-projects.vercel.app/",
       duration: "3 weeks",
       team: "Solo project",
       challenges: [
