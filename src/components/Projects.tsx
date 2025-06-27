@@ -62,7 +62,7 @@ const Projects = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "EmailJS"],
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
       githubUrl: "https://github.com/sudeep467/my-portfolio",
-      liveUrl: "https://my-portfolio-ivvli570s-sudeep-k-us-projects.vercel.app/",
+      liveUrl: "https://my-portfolio-ao11tcp82-sudeep-k-us-projects.vercel.app/",
       duration: "3 weeks",
       team: "Solo project",
       challenges: [
